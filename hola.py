@@ -29,3 +29,9 @@ print("python" in frase)
 print(frase.endswith("programacion"))
 print(palabra.isalpha())
 print(palabra.isdigit())
+
+texto="El café de la mañana es malo"
+print(texto.replace("malo", "excelente"))
+print(texto.split(" "))
+texto1 = ["Phyton", "es", "un", "lenguaje", "de", "programacion"]
+print(" ".join(texto1))
