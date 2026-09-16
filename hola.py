@@ -35,3 +35,18 @@ print(texto.replace("malo", "excelente"))
 print(texto.split(" "))
 texto1 = ["Phyton", "es", "un", "lenguaje", "de", "programacion"]
 print(" ".join(texto1))
+print(texto.title())
+
+precio = float(15.870)
+cantidad = int(4)
+total = precio * cantidad
+print(f"El total a pagar es: {total:.2f}")
+galletas = 10
+personas = 3
+division = galletas // personas
+residuo = galletas % personas
+print(f"Cada persona recibe {division} galletas y sobran {residuo} galletas")
+edad = str("30")
+edad_entera = int(edad)
+suma = edad_entera + 5
+print(f"Si sumamos 5 a la edad, obtenemos: {suma}")
