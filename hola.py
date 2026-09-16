@@ -15,3 +15,17 @@ print(producto.strip().upper())
 
 otros = "Aprender Python es divertido"
 print(len(otros))
+
+palabra = "Programacion"
+print(palabra[0])
+print(palabra[-1])
+
+frase = "Python es un lenguaje de programacion"
+print(frase[0:6])
+print(frase[25:37])
+print(palabra[::-1])
+print("Python" in frase)
+print("python" in frase)
+print(frase.endswith("programacion"))
+print(palabra.isalpha())
+print(palabra.isdigit())
