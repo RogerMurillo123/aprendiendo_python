@@ -64,3 +64,15 @@ clave_guardada = "contraseña123"
 clave_ingresada = "contraseña123"
 clave_ingresada==clave_guardada
 print(f"¿La clave ingresada coincide? {clave_ingresada==clave_guardada}")
+
+edad = input("Ingrese su edad: ")
+invitacion = input("¿tiene invitación? (true/false): ")
+entrada = int(edad) >= 18 and invitacion.lower() == "true"
+print(f"¿Puede entrar? {entrada}")
+estudiante =False
+adulto = True
+descuento = estudiante or adulto
+print(f"¿Se aplica descuento? {descuento}")
+sistema_operativo = False
+sistema_activo = not sistema_operativo
+print(f"¿El sistema está activo? {sistema_activo}")
