@@ -25,3 +25,10 @@ elif edad >= 18 and edad <= 65:
     print("De 18 a 65 años: $20")
 else:
     print("De 65 años en adelante: $5 (Descuento adulto mayor)")
+
+lista = ["pan", "leche", "huevos"]
+lista.append("mantequilla")
+print(lista[0],lista[3]) 
+lista.insert(1, "queso") 
+lista.pop(2) 
+print(lista.pop(2)) 
