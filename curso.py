@@ -32,3 +32,17 @@ print(lista[0],lista[3])
 lista.insert(1, "queso") 
 lista.pop(2) 
 print(lista.pop(2)) 
+
+nombres = ["Ana", "Carlos", "Sofia"]
+for nombre in nombres:
+    print("hola", nombre)
+
+for i in range(1, 11):
+    print(5, "x", i, "=", 5 * i)
+
+valores = [2, 7, 4, 9, 10, 3]
+suma=0
+for num in valores:
+    if num %2 == 0:
+        suma += num
+print("La suma de los números pares es:", suma)
