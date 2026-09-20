@@ -50,3 +50,17 @@ edad = str("30")
 edad_entera = int(edad)
 suma = edad_entera + 5
 print(f"Si sumamos 5 a la edad, obtenemos: {suma}")
+
+edad1 = 25
+edad2 = edad1 + 5
+es_mayor = edad2 > edad1
+print(f"¿Es la edad2 mayor que la edad1? {es_mayor}")
+
+monto_compra = 150
+aplicar_descuento = monto_compra > 100
+print(f"¿Se aplica descuento? {aplicar_descuento}")
+
+clave_guardada = "contraseña123"
+clave_ingresada = "contraseña123"
+clave_ingresada==clave_guardada
+print(f"¿La clave ingresada coincide? {clave_ingresada==clave_guardada}")
