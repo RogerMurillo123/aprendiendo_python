@@ -46,3 +46,25 @@ for num in valores:
     if num %2 == 0:
         suma += num
 print("La suma de los números pares es:", suma)
+
+num=5
+while num >=1:
+    print(num)
+    num -= 1
+
+suma = 0
+num_ingresados = -1
+while num_ingresados != 0:
+    num_ingresados = int(input("Ingrese un número (0 para salir): "))
+    suma += num_ingresados
+print("La suma de los números ingresados es:", suma)
+
+clave = "python"
+while True:
+    ingreso = input("Ingrese la clave: ")
+    ingreso = ingreso.lower()
+    if ingreso == clave:
+        print("Clave correcta")
+        break
+    else:
+        print("Clave incorrecta, intente nuevamente")
