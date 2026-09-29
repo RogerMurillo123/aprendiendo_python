@@ -15,3 +15,27 @@ def es_par(numero):
         return False
 print("El número es par:", es_par(8))
 print("El número es par:", es_par(11))
+
+producto={
+    "nombre": "laptop",
+    "precio": 850.00,
+    "stock": 15
+}
+print(producto)
+
+nota = {
+    "matematicas": 90,
+    "historia": 90,
+    "programacion": 95
+}
+nota["ciencia"] = 88
+promedio = sum(nota.values()) / len(nota)
+print("Promedio de notas:", promedio)
+
+capitales = {
+    "España": "Madrid",
+    "mexico": "Ciudad de México",
+    "colombia": "Bogotá"
+}
+for pais, capital in capitales.items():
+    print(f"La capital de {pais} es {capital}.")
